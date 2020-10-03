@@ -1,8 +1,21 @@
+
+$status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+$phrase = "It's-a me, Mario!"
+$deku = "It's Dangerous To Go Alone! Take This."
 def mario
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts phrase
+
+  puts $phrase
 end
 
 def toadstool
-  puts status
+
+  puts $status
+end
+
+def link
+  puts $deku 
+end
+
+def all_phrases
+  puts $phrase, $status, $deku 
 end
